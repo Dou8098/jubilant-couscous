@@ -1,0 +1,10 @@
+name: Run on Commit
+
+on: 
+  push: 
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Some action
+        uses: actions/checkout@v3
